@@ -31,9 +31,7 @@ function solve(speed, area) {
       status += "reckless driving";
     }
 
-    console.log(
-      `The speed is ${difference} km/h faster than the allowed speed of ${speedLimit} - ${status}`
-    );
+    console.log(`The speed is ${difference} km/h faster than the allowed speed of ${speedLimit} - ${status}`);
   }
 }
 
