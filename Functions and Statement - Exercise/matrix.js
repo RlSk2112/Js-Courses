@@ -14,9 +14,6 @@ function solve(number) {
         console.log(matrix[row].join(' '));
     }
 
-
-    console.table(matrix);
-    
 }
 
 solve(3);
